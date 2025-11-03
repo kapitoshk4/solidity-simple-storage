@@ -1,0 +1,14 @@
+{
+    "name": "solidity-simple-storage",
+    "version": "1.0.0",
+    "description": "A simple Solidity storage contract using Hardhat",
+    "scripts": {
+      "test": "npx hardhat test",
+      "compile": "npx hardhat compile",
+      "deploy": "npx hardhat run scripts/deploy.js --network hardhat"
+    },
+    "devDependencies": {
+      "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+      "hardhat": "^2.22.0"
+    }
+}
